@@ -6,7 +6,7 @@ import routes from './src/routes/crmRoutes';
 const app = express();
 const PORT = 3000;
 
-// connection mongoose
+// connection  base de données mongoose
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/CRMdb', {
     useNewUrlParser: true
